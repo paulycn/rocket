@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('./header.css');
+@import url('./crafted.css');
+@import url('./pricing.css');
+@import url('./subscribe.css');
+@import url('./testimonial.css');
+@import url('./client.css');
+@import url('./touch.css');
+@import url('./footer.css');
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, footer {
+    font-family: 'Poppins', Verdana, Tahoma, sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.button {
+    width: 180px;
+    height: 56px;
+    color: #FFFFFF;
+    background: linear-gradient(55deg, rgba(0,103,244,1) 35%, rgba(43,219,220,1) 81%);
+    border-radius: 1000px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    border: 0; 
+}
+
+.button:hover {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.title_block {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-transform: capitalize;
+    color: #1A202C;
+    text-transform: capitalize;
+}
+
+.title_description {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A5568;
+    text-transform: capitalize;
+}

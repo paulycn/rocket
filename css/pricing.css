@@ -1,0 +1,117 @@
+.pricing {
+    background: #F7FAFC;
+}
+
+.pricing_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding-bottom: 130px;
+}
+
+.pricing_intro {
+    text-align: center;
+    padding: 133px 0 44px 0;
+}
+
+.pricing_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.pricing_item-type {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #81E6D9;
+    padding: 31px 0 28px 0 ;
+    flex-direction: column;
+}
+
+.pricing_item ul li {
+    list-style: none ;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1A202C;
+    text-align: start;
+    padding-top: 5px;
+}
+
+.pricing_item ul li::before{
+    background: url(/img/check.svg);
+    background-repeat: no-repeat;
+    content: '';
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: -55px;
+    padding-right: 20px;
+}
+
+.pricing_item-type::after {
+    content: '';
+    width: 71px;    
+    height: 0px;  
+    border: 4px solid #81E6D9;
+    margin-top: 7px;  
+    text-align: center;
+}
+
+.pricing_item-type.item_blue{
+    color: #0067F4;
+} 
+
+.pricing_item-type.item_blue::after {
+    border: 4px solid #0067F4;
+    padding-left: 5px;
+} 
+
+.pricing_item-type.item_green {
+    color: #4DA422;
+}
+
+.pricing_item-type.item_green::after {
+    border: 4px solid #4DA422;
+    padding-left: 20px;
+}
+
+.pricing_item-price {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 81px;
+    color: #1A202C;
+}
+
+.pricing_item-per_year {
+    font-size: 16px;
+    line-height: 24px;
+    color: #4A5568;
+}
+
+.pricing_item-checks {
+    padding-bottom: 7px;
+}
+
+.pricing_item .baloon {
+    position: absolute;
+    margin-left: 300px;
+}
+
+.pricing_item .flower {
+    position: absolute;
+    margin-left: 300px;
+}
+
+.pricing_item .button.btn-pricing {
+    position: absolute;
+    bottom: 200px;
+}
