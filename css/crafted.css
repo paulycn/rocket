@@ -1,0 +1,47 @@
+.crafted .crafted_wrapper {
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.crafted_wrapper .crafted_image {
+    padding: 85px 0 40px 20px;
+    width: 500px;
+    height: 560px;
+}
+
+.crafted_title {
+    text-align: start;
+    padding: 114px 0 44px 80px;
+}
+
+.crafted_block .crafted_list {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    padding-left: 80px;
+}
+
+.crafted_list .crafted_item {
+    display: flex;
+}
+
+.crafted_list .crafted_item img {
+    padding: 0px 9px 20px 0;
+}
+
+.crafted_item-description span {
+    font-size: 24px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1A202C;
+    padding-bottom: 7px;
+}
+
+.crafted_item-description p {
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #4A5568;
+}
+
+
