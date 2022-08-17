@@ -29,7 +29,7 @@
 }
 
 .pricing_item:nth-child(2) {
-    background-image: url(../img/baloon.svg), url(/img/blue-darker-bottom.svg);   
+    background-image: url(../img/baloon.svg), url(../img/blue-darker-bottom.svg);   
     background-position: right 0px top 0px, bottom;
 }
 
