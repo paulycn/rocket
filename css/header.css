@@ -1,14 +1,13 @@
 .header { 
     background-color:#C5E6F9;
-    max-width: 1440px;
-    margin: 0 auto;
-    width: 100%;
 }
 
 .header_wrapper {
     display: flex;
     justify-content: space-around;
     padding: 39px 0 140px 0;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .header_wrapper .header_menu a {

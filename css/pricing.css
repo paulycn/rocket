@@ -20,6 +20,23 @@
     align-items: center;
     background: #FFFFFF;
     border-radius: 6px;
+    width: 380px;
+    height: 520px;
+    background-image: url(../img/blue-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.pricing_item:nth-child(2) {
+    background-image: url(../img/baloon.svg), url(/img/blue-darker-bottom.svg);   
+    background-position: right 0px top 0px, bottom;
+}
+
+.pricing_item:nth-child(3) {
+    background-image: url(../img/flower.svg),  url(../img/green-bottom.svg);
+    background-position: right 0px top 0px, bottom;
+
 }
 
 .pricing_item-type {
@@ -28,7 +45,6 @@
     line-height: 27px;
     display: flex;
     align-items: center;
-    text-align: center;
     text-transform: uppercase;
     color: #81E6D9;
     padding: 31px 0 28px 0 ;
@@ -46,7 +62,7 @@
 }
 
 .pricing_item ul li::before{
-    background: url(/img/check.svg);
+    background: url(../img/check.svg);
     background-repeat: no-repeat;
     content: '';
     width: 20px;
@@ -62,7 +78,7 @@
     width: 71px;    
     height: 0px;  
     border: 4px solid #81E6D9;
-    margin-top: 7px;  
+    margin-top: 6px;  
     text-align: center;
 }
 
@@ -91,7 +107,7 @@
     color: #1A202C;
 }
 
-.pricing_item-per_year {
+.pricing_item-period {
     font-size: 16px;
     line-height: 24px;
     color: #4A5568;
@@ -99,16 +115,6 @@
 
 .pricing_item-checks {
     padding-bottom: 7px;
-}
-
-.pricing_item .baloon {
-    position: absolute;
-    margin-left: 300px;
-}
-
-.pricing_item .flower {
-    position: absolute;
-    margin-left: 300px;
 }
 
 .pricing_item .button.btn-pricing {

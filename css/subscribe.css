@@ -3,7 +3,7 @@
 }
 
 .subscribe_wrapper img {
-    width: 670px;
+    width: 674px;
     height: 400px;
 }
 
@@ -33,7 +33,7 @@
     background: #FFFFFF;
     border-radius: 1000px;
     padding-left: 54px;
-    margin-left: 100px;
+    margin-left: 119px;
     position: relative;
 }
 
@@ -43,10 +43,10 @@
     font-weight: 500;
     font-size: 14px;
     color: #A2A2A2;
-    padding-left: 45px;
-    background: url(/img/mail.svg);
+    padding-left: 46px;
+    background: url(../img/mail.svg);
     background-repeat:no-repeat;
-    background-position: left -3px top 18px;
+    background-position: left -3px top 17px;
 }
 
 .subscribe_wrapper_block input:focus {

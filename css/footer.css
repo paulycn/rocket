@@ -3,15 +3,22 @@ footer {
 }
 
 .footer_logo {
-    padding: 30px 0 27px 120px;
+    padding: 30px 0 27px 135px;
+    display: flex;
 }
 
-.footer_logo .logo {
-    padding-right: 13px;
+.footer_logo-logo {
+    margin-right: 33px;
+    width: 50px;
+    height: 50px;
 }
 
-.footer_logo a {
-    padding-right: 20px;
+.footer_social_items img {
+    width: 45px;
+    height: 45px;
+    border: 4px solid #D3D3D3;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
 .footer_wrapper-menu {
@@ -24,6 +31,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding-bottom: 52px;
+    gap: 10px;
 }
 
 .footer_wrapper-menu-column h3,
@@ -32,6 +40,7 @@ footer {
     font-weight: 700;
     font-size: 14px;
     line-height: 21px;
+    margin-bottom: 10px;
 }
 
 .footer_wrapper-menu-column a {
@@ -40,7 +49,6 @@ footer {
     font-size: 14px;
     line-height: 21px;
     color: #1A202C;
-    padding-top: 14px;
 }
 
 .footer_newsletter_column {
@@ -64,9 +72,9 @@ footer {
 .footer_newsletter_column button {
     position: absolute;
     right: 12px;
-    top: 46px;
-    color: #EDF2F7;
+    top: 56px;
     border: none;
+    background-color: unset;
 }
 
 .footer_newsletter_column p {
@@ -74,8 +82,8 @@ footer {
     font-size: 14px;
 }
 
-.footer_butoom {
+.footer_botoom {
     background:#2A4365;
-    width: 100%;
     height: 72px;
+    width: 100%;
 }

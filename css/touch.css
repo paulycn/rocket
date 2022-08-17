@@ -21,6 +21,10 @@
     padding-left: 22px;
 }
 
+.touch_form textarea {
+    padding-top: 15px;
+}
+
 .touch_form input {
     height: 50px;
     width: 380px;
