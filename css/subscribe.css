@@ -64,3 +64,24 @@
     right: 6px;
     top: 7px;
 }
+
+@media (max-width:414px) {
+    .subscribe_wrapper img {
+        display: none;
+    }
+
+    .subscribe_wrapper_block {
+        margin: 8px 10px;
+        width: 400px;
+        height: 65px;
+        padding-left: 25px;
+    }
+
+    .subscribe_section_email .title_block {
+       padding: 33px 0;
+    }
+
+    .subscribe_section_email .title_description {
+        padding: 0 15px 40px 15px;
+    }
+}

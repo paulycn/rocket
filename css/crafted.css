@@ -31,7 +31,6 @@
 
 .crafted_item-description span {
     font-size: 24px;
-    font-size: 24px;
     line-height: 36px;
     color: #1A202C;
     padding-bottom: 7px;
@@ -44,4 +43,39 @@
     color: #4A5568;
 }
 
+@media (max-width:414px) {
+    .crafted_title {
+        padding: 20px 15px;
+    }
+
+    .crafted .crafted_wrapper {
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .crafted_wrapper .crafted_image {
+        padding: 30px 0 10px 10px;
+        width: 394px;
+        height: 300px;
+    }
+
+    .crafted_block .crafted_list {
+        display:flex;
+        flex-direction: column;
+        grid-template-columns: auto;
+        gap: 20px;
+        padding-left: 10px;
+    }
+
+    .crafted_item-description span {
+        font-size: 20px;
+        line-height: 36px;
+    }
+
+    .crafted_list .crafted_item img {
+        padding: 0px 9px 0 0;
+        width: 65px;
+        height: 80px;
+    }
+}
 

@@ -54,3 +54,23 @@
     margin: 55px auto 95px auto;
     text-align: center;
 }
+
+@media (max-width:414px) { 
+    .testimonial_wrapper-block:first-child,
+    .testimonial_wrapper-block:nth-child(2) {
+        display: none;
+    }
+
+    .testimonia_wrapper-block-name {
+        padding: 0 0 6px;
+    }
+
+    .testimonia_dots {
+        margin: 20px 0;
+    }
+
+    .dot {
+        height: 15px;
+        width: 15px;
+    }
+}

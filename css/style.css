@@ -32,6 +32,13 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0 auto;
 }
 
+@media (max-width:414px) {
+    .conatiner {
+        padding: 10px;
+        max-width:414px
+    }
+}
+
 .button {
     width: 180px;
     height: 56px;
@@ -63,4 +70,26 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 24px;
     color: #4A5568;
     text-transform: capitalize;
+}
+
+@media (max-width:414px) {
+    .button {
+        width: 165px;
+        height: 51px;
+        font-size: 13px;
+    }
+
+    .button_wrapper .button.button--white {
+        width: 160px;
+    }
+    
+    .button.button--white img {
+        display: none;
+    }
+
+    .title_block {
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 45px;
+    }
 }

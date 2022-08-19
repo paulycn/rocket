@@ -25,7 +25,6 @@
     background-image: url(../img/blue-bottom.svg);
     background-repeat: no-repeat;
     background-position: bottom;
-
 }
 
 .pricing_item:nth-child(2) {
@@ -36,7 +35,6 @@
 .pricing_item:nth-child(3) {
     background-image: url(../img/flower.svg),  url(../img/green-bottom.svg);
     background-position: right 0px top 0px, bottom;
-
 }
 
 .pricing_item-type {
@@ -120,4 +118,25 @@
 .pricing_item .button.btn-pricing {
     position: absolute;
     bottom: 200px;
+}
+
+@media (max-width:414px) {
+    .pricing_intro {
+        padding: 30px 0
+    }
+
+    .pricing_wrapper {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .pricing_item {
+        position: relative;
+    }
+
+    .pricing_item .button.btn-pricing {
+        bottom: 75px;
+    }
 }
