@@ -303,5 +303,23 @@
         </div>
     </footer>
     <div class="footer_botoom"></div> 
+    <script>
+        let menu_bar = document.querySelectorAll('.header_menu a')
+        for(let a_list of menu_bar) {
+            a_list.onclick = function() {
+                document.querySelector('.header_menu a.active').classList.remove('active')
+                this.classList.add('active')
+            }
+        }
+
+        let dots = document.querySelectorAll('.testimonia_dots .dot')
+        for(let dots_active of dots) {
+            dots_active.onclick = function() {
+                document.querySelector('.testimonia_dots .dot_active').classList.remove('dot_active')
+                this.classList.add('dot_active')
+            }
+        }
+
+    </script>
 </body>
 </html>

@@ -134,9 +134,18 @@
 
     .pricing_item {
         position: relative;
+        height: 490px
     }
 
     .pricing_item .button.btn-pricing {
         bottom: 75px;
+    }
+
+    .pricing_item-type {
+        padding: 30px 0 0 0;
+    }
+
+    .pricing_item-price {
+        font-size: 40px;
     }
 }
